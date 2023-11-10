@@ -1,0 +1,40 @@
+.container {
+    background: var(--orange);
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+}
+
+.logoContainer {
+    padding: 5px 5px 5px 10px;
+    background: var(--orange);
+    border-radius: 10px;
+}
+
+.logoContainer2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.logoName {
+    font-weight: 900;
+    font-size: 14px;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    white-space: nowrap;
+}
+
+.linksContainer {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}

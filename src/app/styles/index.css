@@ -1,0 +1,66 @@
+@import "variables.css";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: var(--gray);
+    color: var(--black);
+    font-family: "UAF Sans";
+    font-weight: 400;
+}
+
+.routingContainer{
+    margin: 10px;
+}
+
+
+
+@font-face {
+    font-family: 'UAF Sans';
+    src: url('../../assets/fonts/UAFSans-Bold.ttf');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'UAF Sans';
+    src: url('../../assets/fonts/UAFSans-SemiBold.ttf');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'UAF Sans';
+    src: url('../../assets/fonts/UAFSans-Medium.ttf');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'UAF Sans';
+    src: url('../../assets/fonts/UAFSans-Regular.ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'UAF Sans OnBoard';
+    src: url('../../assets/fonts/UAFSans-OnBoard.ttf');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'UAF Sans OnBoardStencil';
+    src: url('../../assets/fonts/UAFSans-OnBoardStencil.ttf');
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Volja';
+    src: url('../../assets/fonts/Volja-Regular.otf');
+    font-style: normal;
+}

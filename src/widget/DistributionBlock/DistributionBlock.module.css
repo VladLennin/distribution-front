@@ -1,0 +1,50 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.graduatesContainer {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.militaryBasesContainer{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.positionsContainer{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.regionsContainer{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.yearsContainer {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.graduatesContainer > * {
+    align-self: center;
+}
+
+
+.textContent {
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.link{
+   display: flex;
+    justify-content: start;
+    padding: 8px;
+}

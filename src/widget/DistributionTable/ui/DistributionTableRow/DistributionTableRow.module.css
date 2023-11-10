@@ -1,0 +1,19 @@
+.container {
+    margin-top: 10px;
+    display: grid;
+    gap: 15px;
+    grid-template-columns: 40px 1fr 3fr 1fr 150px;
+    background: var(--white);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.container > * {
+    justify-self: start;
+    align-self: center;
+}
+
+.custom{
+    background: var(--black);
+    color:var(--white);
+}

@@ -1,0 +1,11 @@
+.link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--black);
+    color: var(--white);
+    border-radius: 4px;
+    text-decoration: none;
+    padding: 5px 10px;
+    margin: 5px;
+}

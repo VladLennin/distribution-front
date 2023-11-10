@@ -1,0 +1,11 @@
+.title {
+    padding: 5px 0;
+    text-align: center;
+    font-weight: 600;
+    font-size: 22px;
+    border-bottom: 2px solid black;
+}
+
+.arrow{
+    color: var(--white);
+}

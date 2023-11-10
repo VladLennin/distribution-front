@@ -1,0 +1,16 @@
+.header {
+    background: var(--black);
+    color: var(--white);
+    margin-top: 10px;
+    display: grid;
+    gap: 15px;
+    grid-template-columns: 40px 1fr 3fr 1fr 150px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.header > * {
+    justify-self: start;
+    align-self: center;
+    cursor: pointer;
+}
